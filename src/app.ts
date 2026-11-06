@@ -18,6 +18,16 @@ function getDiscount(price: number) {
   return price - 100;
 }
 
+function getAge(age: number) {
+  if (age > 18) {
+    return "Adult";
+  }
+
+  return "Minor";
+}
+
+getAge(25);
+
 calculateTotal(100, 2);
 getUserName({ name: "Avinash" });
 divide(10, 0);
