@@ -36,7 +36,7 @@ function getUserDiscount(age: number) {
 
 console.log(getUserDiscount(18));
 
-getAge(65);
+getAge(95);
 
 calculateTotal(100, 2);
 getUserName({ name: "Avinash" });
