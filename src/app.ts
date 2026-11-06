@@ -26,6 +26,16 @@ function getAge(age: number) {
   return "Minor";
 }
 
+function getUserDiscount(age: number) {
+  if (age > 18) {
+    return 20;
+  }
+
+  return 0;
+}
+
+console.log(getUserDiscount(18));
+
 getAge(65);
 
 calculateTotal(100, 2);
