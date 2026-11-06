@@ -26,7 +26,7 @@ function getAge(age: number) {
   return "Minor";
 }
 
-getAge(35);
+getAge(65);
 
 calculateTotal(100, 2);
 getUserName({ name: "Avinash" });
