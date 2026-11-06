@@ -7,11 +7,15 @@ function calculateTotal(price: number, quantity: number) {
 }
 
 function getUserName(user: any) {
-  return user.name;
+  return user.profile.name.toUpperCase();
 }
 
 function divide(a: number, b: number) {
   return a / b;
+}
+
+function getDiscount(price: number) {
+  return price - 100;
 }
 
 calculateTotal(100, 2);
